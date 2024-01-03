@@ -1,8 +1,8 @@
 <?php
 
-define("WEB_TITLE","South Monument Bank"); // Change Bank Name
-define("WEB_URL","https://dashboard.southmonumentplc.online"); // Change No "/" Ending splash
-define("WEB_EMAIL","contact@southmonumentplc.online"); // Change Your Website Email
+define("WEB_TITLE","Urban Villa Bank"); // Change Bank Name
+define("WEB_URL","https://dashboard.urbanville.online"); // Change No "/" Ending splash
+define("WEB_EMAIL","contact@urbanville.online"); // Change Your Website Email
 
 $web_url = WEB_URL;
 function support_plugin(){
@@ -11,9 +11,9 @@ function support_plugin(){
 
 function dbConnect(){
     $servername = "localhost";
-    $username = "multistream6_south_monument_plc_1";//DATABASE USERNAME
+    $username = "multistream6_urbanville_back";//DATABASE USERNAME
     $password = "000000";//DATABASE PASSWORD
-    $database = "multistream6_south_monument_plc_1";//DATABASE NAME
+    $database = "multistream6_urbanville_back";//DATABASE NAME
     $dns = "mysql:host=$servername;dbname=$database";
 
     try {
